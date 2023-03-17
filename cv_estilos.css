@@ -1,0 +1,123 @@
+/**Definicion de variables*/ 
+:root {
+
+--fuente-principal: 'Poppins', sans-serif;
+
+}
+
+
+/**Reseteo estilos predefinidos del navegador*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--fuente-principal);
+}
+
+
+
+/** Configuracion general*/
+
+.contenido {
+
+    background-color: white;
+    display: grid;
+    width: 100vw;
+    overflow: hidden;
+    grid-template-columns: repeat (2, 1fr);
+    padding: 10px;
+    
+}
+
+.info__img {
+    width: 10vw;
+    height: 10vw;
+}
+
+
+.encabezado {
+    text-align: center;
+    font-size:x-large;
+    background-color: gray; 
+    
+}
+
+.section__obj{
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+}
+
+.section__habilities{
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+
+.section__studies   {
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.estudios {
+    font-size: medium;
+}
+
+.exp{
+    font-size: medium;
+}
+
+.section__exp   {
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+
+.pie-pagina {
+    text-align: center;
+    margin-bottom: 30px;
+    background-color: gray;
+    padding: 10px;
+}
+
+
+.section__skills {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px; 
+    margin-bottom: 10px;  
+}
+
+.info__text{
+    font-size: 14px;
+}
+
+.info__data {
+    display: flex;
+    font-size: 12px;
+}
+
+
+.info_lista {
+    display: flex;
+}
+
+.info_contacto {
+    display: flex;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+ul {
+    list-style: none;
+}
+
+.conclusion {
+
+    background-color: lightskyblue;
+    display: grid;
+    width: 100vw;
+    overflow: hidden;
+    padding: 10px;
+    
+}
